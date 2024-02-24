@@ -1,0 +1,10 @@
+<Entity>
+  <InheritTransformComponent>
+  </InheritTransformComponent>
+
+  <LuaComponent
+    execute_every_n_frame="30"
+    script_source_file="mods/drmelon_earth_magic/files/scripts/vines.lua"
+  >
+  </LuaComponent>
+</Entity>

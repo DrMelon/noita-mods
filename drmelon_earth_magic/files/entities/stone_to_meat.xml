@@ -1,0 +1,147 @@
+<Entity >	
+	<MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="rock_static"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="rock_loose"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="rock_static_wet"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="coal"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="sand"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="rock_static_intro"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="rock_hard"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="rock_static_grey"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="rock_static_radioactive"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="rock_box2d"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="rock_static_box2d"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    <MagicConvertMaterialComponent
+      kill_when_finished="0"
+      from_material="rock_eroding"
+      steps_per_frame="48"
+      to_material="rotten_meat"
+      clean_stains="0"
+      is_circle="1"
+      radius="24" 
+	  loop="1"
+	  >
+    </MagicConvertMaterialComponent>
+
+    
+</Entity>
