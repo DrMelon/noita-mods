@@ -1,0 +1,61 @@
+<Entity
+	name="$projectile_default"
+>
+	<LuaComponent
+		execute_every_n_frame="2"
+		script_source_file="mods/drmelon_object_curse/files/scripts/polymorph_object.lua"
+	>
+	</LuaComponent>
+
+	<ParticleEmitterComponent
+		emitted_material_name="plasma_fading_pink"
+		gravity.y="0.0"
+		lifetime_min="0.2"
+		lifetime_max="0.8"
+		count_min="2"
+		count_max="4"
+		render_on_grid="1"
+		fade_based_on_lifetime="1"
+		area_circle_radius.max="28"
+		cosmetic_force_create="0"
+		airflow_force="0.5"
+		airflow_time="0.01"
+		airflow_scale="0.05"
+		emission_interval_min_frames="1"
+		emission_interval_max_frames="1"
+		emit_cosmetic_particles="1"
+		is_emitting="1">
+	</ParticleEmitterComponent>
+
+	<ParticleEmitterComponent
+		emitted_material_name="plasma_fading_pink"
+		gravity.y="0.0"
+		lifetime_min="1"
+		lifetime_max="2"
+		count_min="1"
+		count_max="3"
+		render_on_grid="1"
+		fade_based_on_lifetime="1"
+		area_circle_radius.min="0"
+		area_circle_radius.max="0"
+		cosmetic_force_create="0"
+		airflow_force="0.01"
+		airflow_time="0.001"
+		airflow_scale="0.005"
+		emission_interval_min_frames="1"
+		emission_interval_max_frames="1"
+		emit_cosmetic_particles="1"
+		image_animation_file="mods/drmelon_object_curse/files/cart_effect.png"
+		image_animation_speed="2"
+		image_animation_loop="1"
+		is_emitting="1">
+	</ParticleEmitterComponent>
+
+	<AudioLoopComponent
+		file="data/audio/Desktop/projectiles.bank"
+		event_name="player_projectiles/field_transmutation/loop"
+		auto_play="1">
+	</AudioLoopComponent>
+
+
+</Entity>
