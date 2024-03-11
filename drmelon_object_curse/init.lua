@@ -1,3 +1,5 @@
+dofile_once("mods/drmelon_object_curse/files/polytools/polytools_init.lua").init("mods/drmelon_object_curse/files/polytools")
+
 function OnModPreInit()
 	
 end
